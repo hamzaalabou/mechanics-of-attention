@@ -1,13 +1,10 @@
 ---
-name: X post craft
-description: >-
-  Use when writing, rewriting, critiquing, or brainstorming an X (Twitter) post,
-  thread, quote post, or clip so it earns attention, based on Eliot's
-  (@CDTEliot) guide "The Mechanics of Attention".
+name: x-post-craft
+description: Use when the user wants an X (Twitter) post, thread, quote post, or clip that people actually stop scrolling for, whether from an idea, a link, a stat, or a rough draft. Applies @CDTEliot's "The Mechanics of Attention" playbook and returns 2-3 ready-to-post options.
 ---
 # X post craft
 
-Based on Eliot's guide [The Mechanics of Attention](https://x.com/CDTEliot/status/2123493376528175223). Use it to draft new posts, punch up a rough idea, or review a draft before it goes out.
+Based on Eliot's guide [The Mechanics of Attention](https://x.com/CDTEliot/status/2123493376528175223). Goal: every post should give people a reason to stop scrolling and engage. Use this to turn an idea, link, or rough draft into posts that earn attention, or to fix a draft before it goes out.
 
 ## 1. Gather inputs
 - The idea, link, clip, article, or draft the user has.

@@ -1,30 +1,52 @@
-# X Post Craft
+# Mechanics of Attention
 
-**You've bookmarked 50 "how to grow on X" guides. This one actually runs.**
+**Turn any idea into a post people stop scrolling for.**
 
-An AI skill that writes your X posts for you using [@CDTEliot](https://x.com/CDTEliot)'s playbook, [The Mechanics of Attention](https://x.com/CDTEliot/status/2123493376528175223). That's the method behind 7M+ impressions in 90 days.
+[@CDTEliot](https://x.com/CDTEliot)'s 7M-impression playbook, packaged as an AI skill.
 
-Give it an idea, a link, or a rough draft. You get back 2–3 posts to pick from, each with a suggested visual.
+---
 
-## What it does
+You don't need more growth guides. You've already bookmarked 50 of them.
 
-1. **The party test.** If the post is only about you, it finds the angle that gives people a reason to stop scrolling.
-2. **Picks an angle.** It can push a conversation one step further, challenge something your audience assumes, or do the reading for them.
-3. **Pulls a trigger.** It uses at least one of five: identity validation, status signaling, tribal belonging, productive discomfort, or aspiration.
-4. **The 5-second test.** Readers should get the point from the first line.
-5. **Makes it visual.** It pairs the post with an image, chart, screenshot, or clip.
-6. **The MATT test.** Is it Memeable, Additive, True, and Talkable? If it misses one, it gets reworked.
+What's hard is remembering to use them at the moment you write a post. This skill handles that part: it applies Eliot's playbook, [The Mechanics of Attention](https://x.com/CDTEliot/status/2123493376528175223), every time you write.
 
-## Use it
+## What you get
 
-**Cursor / Claude Code / any agent that supports skills:** copy the `x-post-craft/` folder into your skills directory, then ask:
+- **Posts people engage with, not scroll past.** Each idea is reframed around what your audience gets out of it, not around you.
+- **2–3 angles to pick from.** Every idea comes back as a few ready-to-post versions, each with a suggested visual.
+- **No more "is this good?"** Every draft is checked before you see it: can a reader get it in 5 seconds, and does it pass Eliot's MATT test (Memeable, Additive, True, Talkable)?
+- **Ideas when you're stuck.** Give it a link, a stat, or a half-thought, and it finds the conversation already happening that your post can join.
 
-> Use x-post-craft to turn this into a post: <your idea or link>
+## Before → after
 
-**Any chat AI:** paste `x-post-craft/SKILL.md` into the chat, then send your idea.
+> **Before:** "Just shipped a new feature for our design tool 🚀"
+>
+> **After:** "Most design handoffs fail before a single pixel is drawn. We spent 6 months fixing the part nobody talks about. Here's what changed 👇"
+
+The first post is about you. The second tells people why they should care.
+
+## How it works
+
+The skill runs Eliot's playbook in order:
+
+1. **The party test.** Is there something in this post for the reader, or is it just about you?
+2. **One level deeper.** Join a conversation that's already happening and add the next step.
+3. **Deny an assumption.** Interesting ideas challenge what people believe; boring ones confirm it.
+4. **Five psychological triggers.** Identity, status, belonging, productive discomfort, aspiration.
+5. **The 5-second rule.** Every bit of friction costs you a like.
+6. **Make it visual.** An image or clip stops the scroll in a way text can't.
+7. **The MATT test.** It has to pass all four, or it gets reworked.
+
+## Use it in 30 seconds
+
+**Cursor, Claude Code, or any agent that supports skills:** copy the `x-post-craft/` folder into your skills directory, then ask:
+
+> Use x-post-craft on this: <your idea, link, or draft>
+
+**ChatGPT, Claude, Grok, or any chat AI:** paste [`x-post-craft/SKILL.md`](x-post-craft/SKILL.md) into the chat, then send your idea.
 
 ## Credit
 
-All ideas belong to Eliot ([@CDTEliot](https://x.com/CDTEliot)). Read the [original guide](https://x.com/CDTEliot/status/2123493376528175223). It's worth it.
+The ideas all come from Eliot ([@CDTEliot](https://x.com/CDTEliot)). [Read the original guide](https://x.com/CDTEliot/status/2123493376528175223); this skill is only the shortcut.
 
-Packaged as a skill by [@hamzaalabou](https://x.com/hamzaalabou).
+Packaged by [@hamzaalabou](https://x.com/hamzaalabou). If it gets you a post that takes off, tag me. I want to see it.
